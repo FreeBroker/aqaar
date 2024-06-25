@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Montserrat&display=swap');
+
+body {
+  background-color: black !important;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flexbox;
+}
+
+h1, h2, h3, h4, h5, h6,
+.detailsContainer,
+.chatContainer,
+.btnIcon,
+.activeSideBar,
+.webColor {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.activeSideBar {
+  background-color: brown;
+}
+
+.webColor {
+  background-color: rgba(233, 84, 55, 1);
+}
+
+.show {
+  display: block;
+  transition: 880ms;
+  opacity: 1;
+}
+
+.show.active {
+  transform: translateY(100px) scale(0) rotateY(180deg);
+  opacity: 0;
+}
+
+.mouseHover:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.imgCardAnimation:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.detailsContainer {
+  background-color: white;
+  border: ridge grey;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.btnIcon {
+  border: solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 1px;
+  padding: 0.5rem;
+}
+
+.pageWidth {
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.profileWidth {
+  width: 70%;
+  margin: auto;
+}
+
+.chatContainer {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 87%;
+  width: 100%;
+  margin: auto;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatContainer .MessageForm {
+  background: #eee;
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 3px 3px;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+
+.chatContainer .MessageList {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+@media (max-width: 700px) {
+  .profileWidth {
+    width: 98%;
+  }
+}
+
+.left-side-app {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100vw !important;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.left-side-app .left-panel {
+  background: #fff;
+  width: 60vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+@media (min-width: 620px) {
+  .left-side-app .left-panel {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .left-side-app .left-panel {
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  body {
+    background-color: black !important;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flexbox;
+  }
+  
+  h1, h2, h3, h4, h5, h6,
+  .detailsContainer,
+  .chatContainer,
+  .btnIcon,
+  .activeSideBar,
+  .webColor {
+    font-family: 'Montserrat', sans-serif;
+  }
+   
+}

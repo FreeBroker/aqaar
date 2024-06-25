@@ -1,0 +1,683 @@
+
+.posted_jobs-post-data .title {
+    color: #b1231b;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.posted_jobs-post-data .title:hover {
+    text-decoration: underline;
+}
+
+.my-items-line {
+    width: 14.375rem;
+    height: 0.04375rem;
+    background: rgba(112, 114, 93, 0.60);
+}
+
+.my-items-item-div {
+    width: 14.125rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-items-item-div2 {
+    /*width: fit-content;*/
+    gap:5px;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-items-item {
+    color: #70725D;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.my-items-item-divs {
+    height: 2.5rem;
+    border-left: 0.25rem solid #b1231b;
+    width: 14.125rem;
+    display: flex;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.my-items-item-divs2 {
+    height: 2.5rem;
+    border-bottom: 1px solid #b1231b;
+    background-color: #00000000;
+    /*width: fit-content;*/
+    gap:5px;
+    display: flex;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    /* color: #b1231b;
+    border: none;
+    border-bottom: 1px solid #b1231b;
+    background-color: #00000000;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+
+    height: 100%; */
+}
+.my-items-items {
+    color: #b1231b;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 150% */
+    margin-left: .3rem;
+
+}
+
+.my-items-item-num {
+    color: #70725D;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+
+
+
+
+.posted_jobs-line {
+    width: 34.125rem;
+    height: 0.0625rem;
+    background: #70725D;
+}
+
+.posted_jobs-header {
+    width: 100%;
+    height: 2.5rem;
+    color: #b1231b;
+    align-items: center;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    /* 80% */
+}
+
+
+
+.posted_jobs-post {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.posted_jobs-post-img {
+    width: 4rem;
+    height: 4rem;
+    background: lightgray 50% / cover no-repeat;
+    /* display */
+}
+
+.posted_jobs-post-data {
+    /*width: fit-content;*/
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+.post-header {
+    color: #333;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.post-company-name {
+    color: #333;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.post-company-location {
+    color: #70725D;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.post-post-date {
+    color: #333;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+
+
+.post_ajob-btn {
+
+    display: flex;
+    width: 18.3125rem;
+    padding: 0.5rem 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 2.5rem;
+    border: 1px solid #b1231b;
+    color: #b1231b;
+    text-align: center;
+
+    background-color: #FFF;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.post_ajob-btn2 {
+
+    display: flex;
+    width: 100%;
+    padding: 0.5rem .4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+    border-radius: 2.5rem;
+    border: 1px solid #b1231b;
+    color: #b1231b;
+    text-align: center;
+
+    background-color: #FFF;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+
+
+
+
+
+.swiper-div {
+
+    height: 50px;
+    background-color: #FFF;
+   display: flex;
+   justify-content: space-between;
+}
+
+.swiper-div {
+    width: 1050px;
+    display: flex;
+    align-items: end;
+}
+
+.act-desc-btn {
+   
+    color: #b1231b;
+    border: none;
+    border-bottom: 1px solid #b1231b;
+    background-color: #00000000;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+
+    height: 100%;
+}
+
+.desc-btn {
+    border: none;
+    background-color: #00000000;
+    font-family: Cairo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #333;
+    height: 100%;
+}
+
+
+
+.ViewJobPost-app-para {
+    font-family: Cairo;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2rem;
+    color: #333;
+  
+
+}
+
+.ViewJobPost-app-par2 {
+    font-family: Cairo;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.1rem;
+    color: #33333362;
+
+}
+
+.custom-table {
+    width: 756px;
+    border-collapse: collapse;
+
+}
+
+.custom-table th,
+.custom-table td {
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-table th {
+    font-weight: bold;
+
+}
+
+.custom-table tr:last-child td {
+    border-bottom: none;
+}
+@media (max-width: 768px) {
+    .custom-table {
+        width: 100%;
+    }
+}
+.ViewJobPost-discription-h {
+    font-family: Cairo;
+    /* font-size: 1.5rem; */
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2rem;
+    color: darkslategrey;
+
+}
+.ViewJobPost-discription-h2 {
+    font-family: Cairo;
+    /* font-size: 1.1rem; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    color: darkslategrey;
+
+}
+.ViewJobPost-discription-data {
+    font-family: Cairo;
+    overflow-wrap:break-word;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+    width: 73%;
+}
+
+.ViewJobPost-discription-data-div {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ViewJobPost-discription-data2 {
+    width: 24%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: .1rem;
+    border-left:.2px gray solid ;
+    padding-left: 1rem;
+
+}
+
+.data2 {
+    font-family: Cairo;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 200;
+    margin: 0px;
+    color: #33333372;
+
+
+}
+
+.homediv {
+    width: 100%;
+    min-height: 100vh;
+    /*max-height: fit-content;*/
+    display: inline-flex;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    justify-content: center;
+    background: #F3F2EE;
+}
+/* ////////////////////////////// */
+ @media screen and (max-width: 768px) {
+
+    .ViewJobPost-app-div {
+
+    display: none;
+    }
+    .posted_jobs {
+        display: flex;
+        padding: 2rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.1875rem;
+        border-radius: 0.625rem;
+        background: #FFF;
+        min-height: 15.75rem;
+        /*max-height: fit-content;*/
+        width: 100%;
+    
+    }
+    
+   
+    .posted_jobs-post-div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.1875rem;
+        display: flex;
+
+        background: #FFF;
+    }
+    .diiv {
+        width: 90.8%;
+      
+        height: fit-content;
+        background: #F3F2EE;
+        align-items: start;
+    
+    }
+    .post_ajob {
+     
+        display:none;
+    }
+    .post_ajob2 {
+       
+        height: 1rem;
+        width: 40.3125%;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        border-radius: 0.5rem;
+        background: #FFFEFF;
+        display: block;
+    }
+    .my-items {
+        display: none;}
+
+        .my-items2{
+            display: block;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            padding: .5rem 0.5rem;
+            align-items: flex-start;
+            gap:1rem;
+            width: 100%;
+            height: 3rem;
+            border-radius: 0.5rem;
+            background: #FFF;
+        }
+        .ViewJobPost-div {
+            min-height: 100vh;
+            /*max-height: fit-content;*/
+            width: 95%;
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        
+        
+        }
+        .ViewJobPost-discription-div {
+            width: 100%;
+            min-height: 500px;
+            /*max-height: fit-content;*/
+            background-color: white;
+            border-radius: 0.625rem;
+            overflow-wrap: break-word;
+            
+          
+
+        }
+        .ViewJobPost-app2 {
+            /* height: 80px; */
+            /*width: fit-content;*/
+            display: flex;
+            justify-content: center;
+            gap:1.2rem
+            ;
+            align-items: center;
+        }
+        .col11{
+            display: none;
+        }
+        .my-item{
+            display: block;
+            display: flex;
+            padding: .7rem 0.5rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.25rem;
+            width: 100%;
+            height: 4.5rem;
+            border-radius: 0.5rem;
+            background: #FFF;
+        }
+
+        .notes {
+
+            position: sticky;
+        
+          }
+          .note {
+            width:100%;
+          }    
+          .it-div{
+            width: 100%;
+        }
+        }
+
+
+
+.ViewJobPost-app {
+    height: 80px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .it-div{
+        /*width: fit-content;*/
+    }
+    .note {
+        width: 300px;
+      }
+    .notes {
+
+        position: sticky;
+       margin-top: 4rem;
+      }
+    .my-item{
+        display: block;
+        display: flex;
+        padding: .7rem 0.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+        width: 15.375rem;
+        height: 4.5rem;
+        border-radius: 0.5rem;
+        background: #FFF;
+    }
+    .col11{
+        display:block;
+    }
+    .ViewJobPost-app2 {
+        display: none;
+    }
+    .ViewJobPost-app-div {
+
+        width: 268px;
+        height: 100px;
+        background-color: white;
+        border-radius: 0.625rem;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        justify-content: flex-start;
+        gap: 1.3rem;
+        display:block;
+    }
+    .ViewJobPost-discription-div {
+   
+        /*max-height: fit-content;*/
+        width: 47.45rem;
+        min-height: 500px;
+        background-color: white;
+        border-radius: 0.625rem;
+    overflow-wrap: break-word;
+    }
+    .ViewJobPost-div {
+        
+        min-height: 100vh;
+        /*max-height: fit-content;*/
+        width: 66.7rem;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    
+    }
+    .my-items2{
+        display: none;}
+    .my-items {
+        display: block;
+        margin-top: 4rem;
+  
+        display: flex;
+        padding: 1.5rem 0.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+        width: 15.375rem;
+        height: 8rem;
+        border-radius: 0.5rem;
+        background: #FFF;
+        
+    }
+    .posted_jobs {
+        display: flex;
+        padding: 2rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.1875rem;
+        border-radius: 0.625rem;
+        background: #FFF;
+        min-height: 15.75rem;
+        /*max-height: fit-content;*/
+        width: 36.125rem;
+    
+    } 
+    .diiv {
+        width: 75.8rem;
+        height: fit-content;
+        background: #F3F2EE;
+        align-items: start;
+    
+    }
+    .post_ajob {
+        margin-top: 6rem;
+        height: 5.5rem;
+        width: 20.3125rem;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: #FFFEFF;
+        display: block;
+    }
+    .post_ajob2 {
+        display: none;
+    }
+}
+
+
+.ViewJobPost-discription-line{
+    width: 90%;
+    height: 0.04375rem;
+    background: rgba(112, 114, 93, 0.60); 
+}
+.my-items-item1{
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+.my-items-item2{
+    color: #0000009c;
+    font-size: 15px;
+}

@@ -1,0 +1,17 @@
+.unit-card {
+  width: 290px;
+}
+
+@media (min-width:768px) {
+  .unit-card {
+    width: 300px;
+  }
+}
+
+.dir-right {
+  left: 5px;
+}
+
+.dir-left {
+  right: 5px;
+}

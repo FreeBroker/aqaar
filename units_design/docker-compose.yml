@@ -1,0 +1,14 @@
+version: "3.1"
+services:
+  react:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: aqar_container
+    volumes:
+      - ./src:/aqar/src:ro
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "3000:3000" 
+    restart: always

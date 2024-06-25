@@ -1,0 +1,27 @@
+.btns {
+  width: 130px;
+}
+
+.big {
+  font-size: 12px !important;
+}
+
+.small {
+  font-size: 7px !important;
+
+}
+
+@media (min-width: 768px) {
+  .btns {
+    width: 160px;
+  }
+
+  .big {
+    font-size: 15px !important;
+  }
+
+  .small {
+    font-size: 9px !important;
+  }
+
+}

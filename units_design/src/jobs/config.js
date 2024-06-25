@@ -1,0 +1,1 @@
+export const link = "https://subb.aqaarfb.com/"

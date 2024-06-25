@@ -1,0 +1,612 @@
+@media screen and (min-width: 768px) {.form-box {
+  width: 30.9rem;
+  flex-shrink: 0;
+  position: relative;
+  background-color: #fff;
+  padding: 5px;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  overflow: hidden;
+}
+.forms {
+  gap: 0.625rem;
+  /* position: absolute; */
+  width: 23.9rem;
+
+  transition: 0.5s;
+  /* width: 99%; */
+  flex-shrink: 0;
+}
+.logtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:40.95rem ;
+
+}
+.lo-div {width: 30.9959rem;
+}
+.logtext-p2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  display: inline-block;
+}
+
+}
+@media screen and (max-width: 768px) {
+  .forms {
+    gap: 0.625rem;
+    /* position: absolute; */
+    /* width: 23.9rem; */
+    /* background-color: rebeccapurple; */
+    transition: 0.5s;
+    width: 99%;
+    flex-shrink: 0;
+  }
+  .logtext-p2 {
+    
+    display: none;
+  }
+  .logtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:7rem ;
+  
+  }
+  .lo-div {
+    width:25.4959rem ;
+  }
+  .form-box2{
+    position:relative;
+      left:-3.4rem;
+  }
+  .log{
+    width: 100%;
+    position:relative!important;
+    left:-3.6rem;
+  }
+  .form-box {
+    width: 100%;
+    /* width: 25rem; */
+  
+   
+    flex-shrink: 0;
+  
+    /* border-radius: 0.3125rem; */
+    position: relative;
+  
+    background-color: #fff;
+    padding: 5px;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    overflow: hidden;
+  }
+}
+
+
+
+
+.forms2 {
+  padding-top: 2.2rem;
+  height: 17.2rem;
+}
+
+.button-box {
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 20rem;
+  position: relative;
+  margin: auto;
+  border-radius: 3.125rem;
+  display: flex;
+  height: 4.25rem;
+  padding: 0.4375rem;
+  align-items: flex-start;
+  gap: 5.7rem;
+  justify-content: center;
+  background-color: #F1F1F1;
+}
+
+.toggle-btn {
+  color: #807d7e;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  /* background-color: #cba082; */
+  outline: none;
+  position: relative;
+}
+
+.toggle-btn2 {
+  color: #807d7e;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem 0.3rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  /* background-color: #cba082; */
+  outline: none;
+  position: relative;
+}
+
+#bttn {
+  /* top: 0; */
+  position: absolute;
+  width: 8.25rem;
+  height: 3.375rem;
+  display: flex;
+  padding: 0.9375rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 3.125rem;
+  background: #F5735A;;
+  transition: 0.5s;
+}
+
+.logininput {
+  border-radius: 0.3125rem;
+  border: 1px solid #b7b4b4;
+  /* width: 23.875rem; */
+  width:99%;
+  height: 3.625rem;
+
+  flex-shrink: 0;
+}
+
+.reginput {
+  width: 49.5%
+}
+
+.checkinput {
+  width: 1.5rem;
+  height: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.checklabel {
+  color: var(--Gray, #b7b4b4);
+  text-align: right;
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  /* 166.667% */
+}
+
+.forgetpass {
+  color: #5d5e5f;
+  text-align: right;
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+.polciy {
+  color: #000;
+  text-align: left;
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+.loginbtn {
+  border-radius: 0.3125rem;
+  background: #F5735A;;
+  display: flex;
+  width: 100%;
+  padding: 0.9375% 9.375%;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+  height: 3.5rem;
+
+  /* border: 0px solid #B7B4B4;
+
+    border-radius: 0.3125rem;
+    width: 22.75rem;
+height: 2.3125rem;
+background: #F5735A;; */
+}
+
+.logoptions {
+  margin: auto;
+  height: 7rem;
+  align-items: center;
+  text-align: center;
+  gap: 0.625rem;
+  width: 23.9rem;
+
+  padding: 0.3rem;
+  flex-direction: column;
+  justify-content: center;
+  /* display: inline-flex;
+
+align-items: center;
+*/
+}
+
+.optbtn {
+  width: 23.9rem;
+  border-radius: 0.625rem;
+  height: 3.36rem;
+  background: #1876f200;
+  display: flex;
+  width: 23.8125rem;
+  padding: 0.9375rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+
+  /* font-family: Inter; */
+  /* font-size: 1rem; */
+  /* font-style: normal; */
+  font-weight: 700;
+  /* line-height: normal; */
+  border: none;
+  /* border-radius: 0.3125rem;
+    background: #1876f200; 
+    border-radius: 0.625rem;
+   
+    height: 2.3125rem; 
+text-align: left;
+padding-left: 1rem;
+padding-right:1rem ;
+align-items: end;
+display: flex;
+width: 23.8125rem;
+padding: 0.9375rem;
+align-items: flex-start;
+gap: 0.625rem;
+    border: 0px solid #B7B4B4;  */
+}
+
+.logheader {
+  color: #fff;
+  text-align: left;
+  /* SubHeading2 */
+  font-family: Cairo;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.paricon {
+  width: 1.75rem;
+  height: 1.68388rem;
+  flex-shrink: 0;
+}
+
+.par {
+  color: #fff;
+  text-align: left;
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  /* 166.667% */
+}
+
+/* ////////////LoginFast//////////////// */
+
+.LoginFast-div {
+  width: 44rem;
+  height: 3.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LoginFast {
+  padding-top: 1.81rem;
+  padding-bottom: 1.81rem;
+  padding-left: 1.56rem;
+  padding-right: 2.89rem;
+  width: 49.375rem;
+  height: 5.75rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #fafbfc;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.LoginFast-par-div {
+  width: 21.6875rem;
+  height: 2.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LoginFast-par-icon {
+  width: 2.625rem;
+  height: 2.625rem;
+  flex-shrink: 0;
+}
+
+.LoginFast-par {
+  color: #000;
+
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.LoginFast-btn {
+  color: #F5735A;;
+  text-decoration: none;
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  padding: 0.625rem 1.5625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #F5735A;;
+}
+
+.ForgitPassPop-div {
+  width: 29rem;
+  height: 22.8rem;
+  display: inline-flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ForgitPassPop-h1 {
+  color: #000;
+  text-align: right;
+
+  /* SubHeading3 */
+  font-family: Cairo;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ForgitPassPop-h2 {
+  color: #000;
+  text-align: right;
+
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.forgit-input {
+  width: 100%;
+  height: 3.8125rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid #b7b4b4;
+}
+
+.ForgitPassPop-h-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.88rem;
+}
+
+.ForgitPassPop-h-div2 {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.ForgitPassPop-btn {
+  display: flex;
+  text-decoration: none;
+  padding: 0.625rem 7.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.3125rem;
+  color: var(--white, #fff);
+  text-align: right;
+
+  /* Text */
+  font-family: Cairo;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #F5735A;;
+  border: #F5735A;;
+}
+
+.ForgitPassPop-p1 {
+  color: #000;
+  text-align: right;
+
+  /* P */
+  font-family: Cairo;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ForgitPassPop-p2 {
+  color: #F5735A;;
+  background-color: #ffffff00;
+  border: none;
+  /* P */
+  font-family: Cairo;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.confirmemailPop-h-div1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.3125rem;
+  height: 6.3125rem;
+}
+
+.confirmemailPop-h1 {
+  color: #000;
+  width: 100%;
+  text-align: center;
+  /* SubHeading3 */
+  font-family: Cairo;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.confirmemailPop-h2 {
+  color: var(--Gray, #b7b4b4);
+  text-align: center;
+  font-family: Cairo;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 18.5rem;
+}
+
+.confirmemailPop-div {
+  width: 29rem;
+  height: 25rem;
+  /* margin: 3rem 2.5rem 2.5rem  3rem ; */
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.0625rem;
+}
+
+
+
+.logtext-div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.login-img {
+  width: 11.5rem;
+  height: 7.4375rem;
+  flex-shrink: 0;
+
+  background: -95.528px -62.118px / 202.377% 199.762% no-repeat;
+}
+
+.logtext-p1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+
+
+
+/* ////////////////////////////////////////// */
+
+/* 
+
+.form-box{
+    width: 39.18rem;
+    height:40.75rem;
+
+    
+    flex-shrink: 0;
+
+    border-radius: 0.3125rem;
+    position: relative;
+   
+    background-color:#8a5151;
+
+    padding: 5px;
+    overflow: hidden;
+}
+
+background-color:#8a5151;
+
+height:30.75rem;
+width: 25.18rem;
+height:35.75rem;
+overflow: hidden;
+
+
+
+.form-box-div{
+
+    background-color:#8a5151;
+    width: 39.18rem;
+    height:40.75rem;
+
+   
+    overflow: hidden;
+}
+
+
+
+
+ */

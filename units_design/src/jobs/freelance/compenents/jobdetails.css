@@ -1,0 +1,117 @@
+
+
+.job-details::-webkit-scrollbar {
+  width: 10px;
+}
+
+.job-details::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.job-details::-webkit-scrollbar-thumb {
+  background: #f4f2ee;
+  border-radius: 5px;
+}
+
+.job-details::-webkit-scrollbar-thumb:hover {
+  background: #dcdad7;
+}
+
+
+
+.job-place-time {
+  color: #56687a;
+  margin-bottom: 30px;
+  
+}
+
+.job-info {
+  margin-bottom: 20px;
+}
+
+.job-info img {
+  max-width: 30px;
+  max-height: 35px;
+}
+
+.job-info p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 0.75;
+}
+
+.job-info .job-type {
+  background: #daebd1;
+  padding: 1px 8px;
+  border-radius: 8px;
+}
+
+.btns {
+  margin: 30px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.btns button {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.btns .apply {
+  color: #E95437;
+  background: #fff;
+  border: 2px solid #E95437;
+  height: fit-content;
+}
+
+.btns .save-job {
+  padding: 10px 20px !important;
+  color: #fff;
+  background: #E95437;
+  min-width: fit-content  ;
+}
+.about {
+  padding: 0 10px; 
+}
+.about .job-desc {
+  margin-top: 30px;
+}
+
+.about .job-desc p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 818px) {
+  .job-details {
+    background: #fff;
+    min-height: 100vh;
+    max-height: fit-content;
+    border-radius: 8px;
+    border: 2px solid gainsboro;
+    padding: 20px;
+  width: 95%;
+  
+    overflow-y: auto;
+  }
+}
+@media screen and (min-width: 818px) {
+  .job-details {
+    background: #fff;
+    min-height: 100vh;
+    max-height: fit-content;
+    border-radius: 8px;
+    border: 2px solid gainsboro;
+    padding: 20px;
+  width: 55%;
+  
+    overflow-y: auto;
+  }
+}

@@ -1,0 +1,43 @@
+.tab {
+  margin: auto;
+  /* border: solid; */
+}
+
+.tab .tab-headers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab .tab-headers .tab-header {
+  position: relative;
+  padding: 0px 30px;
+  height: 30px;
+
+  z-index: 0.9;
+  cursor: pointer;
+  color: #484848;
+  font-weight: bold;
+}
+
+.tab .tab-headers .tab-header.active {
+  color: white;
+  background-color: #000;
+  border-top: solid #000;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.tab-body {
+  background-color: #000;
+  border-top: solid #000;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.dir-right {
+  border-top-left-radius: 20px;
+}
+
+.dir-left {
+  border-top-right-radius: 20px;
+}

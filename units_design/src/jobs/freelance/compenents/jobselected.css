@@ -1,0 +1,146 @@
+.job-selected {
+  background: #f4f2ee;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+.apply-form {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #000000b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply-form>div {
+  width: 40%;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.apply-form .head {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gainsboro;
+}
+
+.apply-form .head p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.apply-form form label {
+  color: #000000b5;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.apply-form form input {
+  outline: none;
+  font-size: 18px;
+  padding: 3px 10px;
+  border: 1px solid #000000b7;
+  border-radius: 5px;
+}
+
+.apply-form form .code-input {
+  width: 100%;
+  border: 1px solid #000000b7;
+  border-radius: 5px;
+}
+
+.apply-form form .code-input input {
+  width: 100%;
+  border: none;
+}
+
+.apply-form form .code {
+  position: relative;
+}
+
+.apply-form form ul {
+  position: absolute;
+  left: 0;
+  top: 67px;
+  max-height: 250px;
+  overflow-y: auto;
+  background: #fff;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 2px rgb(243, 243, 243);
+  list-style-type: none;
+  padding: 0;
+}
+
+.apply-form form ul li{
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+.apply-form form ul li:hover{
+  background: rgb(0, 123, 255);
+}
+
+.apply-form form .file-input{
+  width: 0px;
+  padding: 0;
+  height: 0;
+  border: none;
+}
+
+.apply-form .upload{
+  border: 2px solid #E95437;
+  padding: 5px 30px;
+  width: fit-content;
+  background: transparent;
+  border-radius: 35px; 
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #E95437;
+}
+.apply-form .upload:hover{
+  background-color: #70b4f9ad;
+}
+
+.apply-form form .submit{
+ color: #fff;
+ background: #E95437;
+ padding: 5px 30px;
+ font-size: 18px; 
+ font-weight: 700;
+ border-radius: 35px;
+ border: none;
+ margin-top: 40px;
+ margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 818px) {
+  .related-jobs {
+    background: #fff;
+    height: 100vh;
+    overflow-y: auto;
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 818px) {
+  .related-jobs {
+    background: #fff;
+    height:100vh;
+    overflow-y: auto;
+    border-radius: 8px;
+    border: 2px solid gainsboro;
+  }
+  
+}
+
+

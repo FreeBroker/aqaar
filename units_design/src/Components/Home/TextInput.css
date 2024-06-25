@@ -1,0 +1,3 @@
+.form-control::-webkit-input-placeholder {
+  color: silver;
+}

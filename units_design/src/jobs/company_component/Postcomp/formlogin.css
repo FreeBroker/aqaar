@@ -1,0 +1,316 @@
+.form_div{
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    width: 410px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    align-items: flex-start;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    gap:.7rem;
+    background-color: #FFF;
+}
+@media screen and (min-width: 768px) {
+    .form_div{
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    width: 410px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    align-items: flex-start;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    gap:.7rem;
+    background-color: #FFF;
+}}
+@media screen and (max-width: 768px) {
+    .form_div{
+        padding-left: 1.4rem;
+padding-right: 1.4rem;
+width: 370px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        align-items: flex-start;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        border-radius: 1rem;
+        gap:.7rem;
+        background-color: #FFF;
+    }
+}
+
+.label-div{
+
+    height: 69.2px;
+    width: 336px;
+
+}
+.form_div-header1{
+    color: #000000E6
+    ;
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.form_div-header2{
+    color: #000000E6;
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form_div_form
+{
+    width: 336px;
+    min-height:370.362px ;
+    max-height:fit-content ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_name{
+width: 100%;
+text-align: start;
+color: 00000099;
+font-size: 14px;
+}
+.label-div-input{
+    width: 100%;
+    height: 30px;
+border: .02rem solid black;
+border-radius: .3rem;
+} 
+.label-div{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
+}
+.comp-para{
+    display: flex;
+    background-color: white;
+    padding-left: .5rem;
+    color:rgb(111, 107, 107);
+    font-size:14px ;
+    justify-content: flex-start;
+    gap:.4rem
+    ;
+    font-weight: 400;
+    align-items: center;
+
+}
+
+.form-img{
+    width: 24px;
+    height:24px;
+}
+.back-btn{display: flex;
+    color: #b1231b;
+text-align: center;
+font-family: Cairo;
+font-size:20px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; /* 150% */
+    width: 100%;
+    padding: 0.5rem 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 2.5rem;
+    background-color: #FFF;
+    border: 1px solid #b1231b;}
+
+    .next-btn{display: flex;
+        color: #FFF;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem; /* 150% */
+        width: 100%;
+        padding: 0.5rem 4rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        border-radius: 2.5rem;
+
+        background-color: #b1231b;
+        border: 1px solid #b1231b;}
+        /*//////////////////////////////////  */
+.PostformPage-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+        .div-form{
+            padding: 2.4rem 0;
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #4f3838;
+        }
+
+        .div-Rated{
+width: 74.756%;
+height:256px ;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+
+        }
+        .div-Rated-paras{
+            width: 782px;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+       
+        }
+        .div-Rated-para{
+color: #000000E6;
+text-align: start;
+        }
+        .div-Rated-para2{
+            color: #494444e6;
+            text-align: start;
+                    }
+       
+        .div-control{
+            width: 68.7%;
+            min-height:310px ;
+            max-height:fit-content ;
+            
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            
+           
+ }
+                   
+ .card-div{
+     width: 350px;
+                    
+
+display: flex;
+border: .3px solid #d0d8de;
+border-radius: .5rem;
+flex-direction: column;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+padding: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.card-div-img{
+    width: 64px;
+    height:64px ;
+}
+.div-join{
+    width: 74.7%;
+    min-height:310px ;
+    max-height:fit-content ;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  
+            }
+           
+           
+            .div-join-sub2{
+display: flex;
+flex-direction: column;
+width: 850px;
+height: 130px;
+justify-content: space-between;
+
+}
+ .div-join-sub{
+         width: 100%;
+         height: 200px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+ }
+
+
+
+ @media screen and (min-width: 768px) {
+    .div2-div2{
+        width: 256px;
+        height: 256px;
+       display:block;
+    }
+   
+    .cards_div{
+        width: 68.75rem;
+        flex-wrap: wrap;
+        height: fit-content;
+      
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .div-join-img{
+        width: 200px;
+       height:  200px;
+        border-radius: 200px;
+        display: inline-block;
+    }
+ }
+ @media screen and (max-width: 768px) {
+    .div2-div2{
+        width: 256px;
+        height: 256px;
+        display: none;
+    }
+    .cards_div{
+        width: 23rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 50rem;
+      
+        display: flex;
+        gap:2rem;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .div-join-img{
+      
+     display: none;
+      
+    }
+ }
+ 

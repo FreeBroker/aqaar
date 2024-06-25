@@ -1,0 +1,47 @@
+.card-title {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.card-text {
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.card-price {
+  font-size: 12px;
+}
+
+.card-size {
+  font-size: 12px;
+}
+
+@media (min-width:550px) {
+  .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .card-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card-price {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .card-size {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.dir-right {
+  left: 5px;
+}
+
+.dir-left {
+  right: 5px;
+}

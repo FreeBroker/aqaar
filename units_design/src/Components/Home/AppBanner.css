@@ -1,0 +1,15 @@
+.appBanner {
+  background-image: url("./bannerBackground.png");
+  height: 481;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  /* border: ridge #eee; */
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #eee;
+  margin-bottom: 18px;
+}
+
+.phoneImage {
+  height: 320px;
+}

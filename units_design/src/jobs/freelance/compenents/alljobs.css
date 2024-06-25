@@ -1,0 +1,84 @@
+.all-jobs {
+  background: #f4f2ee;  
+  padding: 40px 0;
+  min-height: 100vh;
+}
+
+.item {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid rgb(232, 232, 232);
+}
+
+.save-item {
+  width: 235px;
+  padding: 20px 0px 20px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  position: sticky;
+  top: 40px;
+}
+
+.save-item img,
+.save-item div {
+  cursor: pointer;
+}
+
+.job {
+  border-bottom: 1px solid rgb(212, 212, 212);
+  padding: 15px 35px 15px 5px;
+  background: transparent;
+}
+
+
+.job .job-description {
+  margin-left: 10px;
+}
+
+.job .job-description h2 {
+  color: #0a66c2;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.job .job-description h2:hover {
+  text-decoration: underline;
+}
+
+.job .job-description .time,
+.job .job-description .adrress,
+.job .job-description .location {
+  color: #000;
+  margin: 5px 0;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.job .job-description .time {
+  color: #01754f;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+
+
+
+.note h3 {
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.note span {
+  color: #0000009c;
+  font-size: 15px;
+}
+
+.note p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 0;
+}

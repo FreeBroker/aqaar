@@ -1,0 +1,36 @@
+.categoryTab {
+  margin: auto;
+  /* border: solid; */
+  margin: 5px;
+  background-color: white;
+  border: ridge silver;
+  border-width: 2px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.categoryTab .categoryTab-headers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 20px;
+}
+
+.categoryTab .categoryTab-headers .categoryTab-header {
+  position: relative;
+  padding: 20px 20px;
+
+  z-index: 2;
+  cursor: pointer;
+  color: silver;
+  font-weight: bold;
+}
+
+.categoryTab .categoryTab-headers .categoryTab-header.active {
+  color: black;
+}
+
+.categoryTab-body {
+  background-color: white;
+  border-top: ridge silver;
+  border-width: 2px;
+}

@@ -1,0 +1,164 @@
+
+
+.nav-lang {
+  position: relative;
+  padding: 2px;
+}
+
+.nav-lang img {
+  cursor: pointer;
+}
+
+.list-lang {
+  position: absolute;
+  background: #b79763;
+  top: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.list-lang li {
+  color: #fff;
+  font-weight: 700;
+  list-style: none;
+  padding: 4px 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list-lang li:nth-child(2) {
+  border-top: 1px solid #fff;
+}
+
+.dir-right {
+  left: 5px;
+}
+
+.dir-left {
+  right: 5px;
+}
+.logo-{
+  max-width: 190px;
+  max-height: 100px;
+}
+.text-{
+  color: transparent;
+  background-image:linear-gradient(to bottom, #eaaf3f, #fc842b) ;
+  font-size: 22px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 600px) {
+  .logo-{
+    max-width: 100px;
+    max-height: 40px;
+  }
+  .text-{
+    color: transparent;
+    background-image:linear-gradient(to bottom, #eaaf3f, #fc842b) ;
+    font-size: 15px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .nav-lang {
+    position: relative;
+    padding: 1px;
+  }
+  
+  .nav-lang img {
+    cursor: pointer;
+  }
+  
+  .list-lang {
+    position: absolute;
+    background-image:linear-gradient(to bottom, #eaaf3f, #fc842b) ;
+    top: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  .list-lang li {
+    color: #000;
+    font-weight: 700;
+    list-style: none;
+    padding: 4px 6px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .list-lang li:nth-child(2) {
+    border-top: 1px solid #000;
+  }
+  
+  .dir-right {
+    left: 15px;
+  }
+  
+  .dir-left {
+    right: 15px;
+  }
+
+  
+}
+@media (min-width: 600px) and (max-width: 1200px){
+  .logo-{
+    max-width: 170px;
+    max-height: 70px;
+  }
+  .text-{
+    color: transparent;
+    background-image:linear-gradient(to bottom, #eaaf3f, #fc842b) ;
+    font-size: 20px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+.nav-lang {
+  position: relative;
+  padding: 2px;
+  color: #fff;
+}
+
+.nav-lang img {
+  cursor: pointer;
+  color: #fff;
+}
+
+.list-lang {
+  position: absolute;
+  background-image:linear-gradient(to bottom, #eaaf3f, #fc842b) ;
+  top: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.list-lang li {
+  color: #000;
+  font-weight: 700;
+  list-style: none;
+  padding: 4px 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list-lang li:nth-child(2) {
+  border-top: 1px solid #000;
+}
+
+.dir-right {
+  left: 15px;
+}
+
+.dir-left {
+  right: 15px;
+}
+  
+}

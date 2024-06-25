@@ -1,0 +1,116 @@
+.banner {
+  background-image: url("./BannerImage.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: start;
+  width: 2000px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px gray;
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
+  .tabContainer {
+    /*background-color: black;*/
+    /*position: absolute;*/
+    bottom: 10px; /* Adjust top position to move text closer to the top */
+    right: 50%; 
+    transform: translateX(5%); 
+    transform: translateY(80%); 
+    text-align: center;
+    color: #000;
+  }
+
+  .bannerTextContainer {
+    /*position: absolute;*/
+    top: 50%; 
+    right: 65%; 
+    transform: translateX(50%); 
+    transform: translateY(-30%); 
+    text-align: center;
+    color: #000;
+    font-size: 7vw;
+  }
+  .bannerText {
+    font-weight: bold;
+    /*width: fit-content;*/
+    top: 50%;  
+    right: 30%;
+    /*font-size: 30%;*/
+    font-size: 3.5vw;
+  }
+
+  .banner {
+    background-image: url("./BannerImage.jpg");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+    position: relative; 
+  }
+
+}
+
+
+
+@media (max-width: 600px) {
+  .tabContainer {
+    /*background-color: black;*/
+    /*position: absolute;*/
+    bottom: 10px; /* Adjust top position to move text closer to the top */
+    right: 50%; 
+    transform: translateX(5%); 
+    transform: translateY(65%); 
+    text-align: center;
+    color: #000;
+  }
+
+  .bannerTextContainer {
+    /*position: absolute;*/
+    top: 50%; 
+    right: 50%; 
+    transform: translateX(10%); 
+    transform: translateY(-25%); 
+    text-align: center;
+    color: #000;
+    font-size: 7vw;
+  }
+  .bannerText {
+    font-weight: bold;
+    /*width: fit-content;*/
+    top: 50%;  
+    right: 50%;
+    font-size: 10%;
+    font-size: 7vw;
+  }
+
+  .banner {
+    background-image: url("./BannerImage.jpg");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+    position: relative; 
+  }
+
+
+}
+
+.bannerTextContainer {
+  position: absolute;
+  left: 220px;
+  top: 130px;
+  align-items: start;
+  
+}
+.bannerText {
+  font-weight: bold;
+  /*width: fit-content;*/
+}
+
+.tabContainer {
+  /*background-color: black;*/
+}
+
